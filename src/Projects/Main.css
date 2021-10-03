@@ -1,0 +1,29 @@
+.main {
+  background: #fff5ee;
+}
+.main > h1 {
+  display: grid;
+  place-items: center;
+  padding-top: 25px;
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 56px;
+  font-family: "Mulish", "sans-serif";
+  line-height: 1.1;
+  letter-spacing: 0.8px;
+  text-shadow: 6px 3px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+@media (max-width: 992px) {
+  .main > h1:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 1.5px;
+    background: var(--text-color);
+    top: 15px;
+  }
+  .main > h1 {
+    font-size: 46px;
+  }
+}

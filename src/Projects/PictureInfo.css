@@ -1,0 +1,153 @@
+.info {
+  width: 475px;
+  height: 375px;
+  padding-top: 55px;
+}
+.info > h4 {
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 42px;
+  font-family: "Mulish", "sans-serif";
+  line-height: 1.1;
+  letter-spacing: 0.8px;
+}
+.info > p {
+  color: var(--project-color);
+  font-weight: 400;
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: "Lato", "sans-serif";
+  letter-spacing: 1.1px;
+  font-style: italic;
+}
+@media (max-width: 992px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 85px;
+  }
+  .info > h4 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .info > p {
+    font-size: 18px;
+    padding-top: 45px;
+    text-align: center;
+  }
+}
+@media (max-width: 540px) {
+  .info {
+    width: 455px;
+    height: 375px;
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .info > h4 {
+    font-size: 26px;
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .info > p {
+    font-size: 14px;
+    max-width: 350px;
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (max-width: 460px) {
+  .info {
+    width: 400px;
+    height: 375px;
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .info {
+    width: 400px;
+    height: 375px;
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .info > h4 {
+    font-size: 26px;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .info > p {
+    font-size: 16px;
+    max-width: 400px;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (max-width: 390px) {
+  .info {
+    width: 375px;
+    height: 375px;
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .info {
+    width: 340px;
+    height: 375px;
+    padding-top: 35px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .info > h4 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .info > p {
+    font-size: 18px;
+    max-width: 340px;
+    padding-top: 45px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  .info {
+    padding-top: 55px;
+    width: 315px;
+    height: 375px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .info > h4 {
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 315px;
+    text-align: center;
+  }
+  .info > p {
+    font-size: 14px;
+    padding-top: 45px;
+    max-width: 315px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 280px) {
+  .info {
+    width: 280px;
+    height: 365px;
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

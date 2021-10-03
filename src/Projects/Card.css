@@ -1,0 +1,119 @@
+.card-size {
+  position: relative;
+  width: 275px;
+  height: 365px;
+  background-color: transparent;
+}
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease-in-out;
+  background: transparent;
+  cursor: pointer;
+  border: 0.5px solid var(--hero-color);
+  border-radius: 14px;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.front-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: var(--text-color);
+  text-align: center;
+  border-radius: 14px;
+}
+.front-card > h2 {
+  padding-top: 20px;
+  color: var(--text-color);
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+.front-card > img {
+  display: grid;
+  position: absolute;
+  top: 100px;
+  left: 33%;
+  place-items: center;
+  height: 100px;
+}
+.back-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: var(--design-color);
+  color: var(--text-color);
+  text-align: center;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+.back-card > p {
+  color: var(--text-color);
+  padding-top: 80px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lato", "sans-serif";
+  font-weight: 400;
+  font-style: italic;
+}
+.back-card > h3 {
+  padding-top: 20px;
+  color: var(--text-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Mulish", "sans-serif";
+}
+@media (max-width: 992px) {
+  .card-size {
+    width: 325px;
+    height: 420px;
+    position: relative;
+  }
+}
+@media (max-width: 540px) {
+  .card-size {
+    width: 335px;
+    height: 425px;
+    position: relative;
+  }
+}
+
+@media (max-width: 375px) {
+  .card-size {
+    width: 300px;
+    height: 400px;
+    position: relative;
+  }
+  .front-card > h2 {
+    font-size: 24px;
+  }
+  .back-card > p {
+    font-size: 18px;
+  }
+  .back-card > h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .card-size {
+    width: 275px;
+    height: 320px;
+    position: relative;
+  }
+  .front-card > h2 {
+    font-size: 22px;
+  }
+  .back-card > p {
+    font-size: 16px;
+  }
+  .back-card > h3 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Mulish:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Mulish:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+:root {
+  --mobile-links-color: #111623;
+  --logo-color: #1b253b;
+  --header-links-color: #bb99f4;
+  --border-color: rgba(168, 198, 243, 0.7);
+  --design-color: linear-gradient(
+    100.2deg,
+    rgba(231, 189, 251, 0.8) -10.5%,
+    rgba(250, 208, 218, 0.6) 65%,
+    rgba(168, 198, 243, 0.7) 95%
+  );
+  --text-color: rgba(35, 39, 42, 1);
+  --project-color: rgba(129, 124, 125, 1);
+  --linked-color: linear-gradient(
+    to left top,
+    #006699,
+    #346c96,
+    #4c7394,
+    #607a91,
+    #71808e,
+    #717b85,
+    #70767d,
+    #6f7174,
+    #5f6164,
+    #4f5153,
+    #404244,
+    #313335
+  );
+  --facebook-color: rgb(41, 72, 125);
+  --gmail-color: #ea4335;
+  --whatsapp-color: #25d366;
+  --linkedin-color: #2867b2;
+  --slack-color: #4a154b;
+  --discord-color: #7289da;
+  --todo-color: #fbbc05;
+  --weatherapp-color: #86888a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,122 @@
+.bottom-section {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  object-fit: auto;
+}
+.bottom-section > h1 {
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 42px;
+  font-family: "Mulish", "sans-serif";
+  line-height: 1.1;
+  letter-spacing: 0.8px;
+  position: relative;
+}
+.bottom-section > h4 {
+  color: var(--project-color);
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Lato", "sans-serif";
+  letter-spacing: 1.1px;
+  font-style: italic;
+}
+.emoji {
+  font-style: normal;
+}
+.resume {
+  background: linear-gradient(
+      to left,
+      var(--project-color) 50%,
+      var(--text-color) 50%
+    )
+    right;
+  background-size: 200%;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  border: none;
+  transition: all 0.6s ease-in-out;
+  outline: 2px solid transparent;
+  font-family: "Mulish", "sans-serif";
+}
+.resume:hover {
+  background-position: left;
+}
+.bottom-links {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.expand {
+  padding: 12px;
+  color: #fff;
+  display: block;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+  margin-bottom: 10px;
+}
+.expand:hover {
+  transform: scale(0.8);
+}
+
+.icons {
+  color: var(--mobile-links-color);
+  margin-left: 15px;
+}
+
+.icons:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}
+@media (max-width: 992px) {
+  .bottom-section > h1:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 1.5px;
+    background: var(--text-color);
+    top: -10px;
+  }
+  .bottom-section > h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+@media (max-width: 540px) {
+  .bottom-section > h1:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 1.5px;
+    background: var(--text-color);
+    top: -10px;
+  }
+  .bottom-section > h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .bottom-section > h4 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  .bottom-section > h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .bottom-section > h4 {
+    font-size: 14px;
+  }
+}

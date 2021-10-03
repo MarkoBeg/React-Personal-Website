@@ -1,0 +1,223 @@
+.hero {
+  background: whitesmoke;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  z-index: -1;
+  justify-content: space-evenly;
+}
+.hero-banner {
+  background-color: var(--design-color);
+  margin-top: 85px;
+  padding-top: 15vh;
+  width: 450px;
+  height: 475px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  border: 2px solid var(--border-color);
+  border-left-color: var(--header-links-color);
+  border-bottom-color: var(--header-links-color);
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: -5px -6px 6px 5px rgba(0, 0, 0, 0.3);
+}
+.hero-banner > h1 {
+  padding-bottom: 15px;
+  font-size: 42px;
+  color: var(--text-color);
+  font-weight: 900;
+  font-family: "Mulish", "sans-serif";
+  line-height: 1.1;
+  letter-spacing: 0.8px;
+}
+.hero-banner > h4 {
+  font-family: "Lato", "sans-serif";
+  color: var(--project-color);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+}
+.hero-banner > h4 > span {
+  color: var(--text-color);
+  font-family: "Mulish", "sans-serif";
+  font-size: 20px;
+  font-weight: 900;
+}
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-top: 85px;
+  height: 375px;
+  padding-top: 10vh;
+}
+.hero-info > h3 {
+  font-family: "Mulish", "sans-serif";
+  font-size: 28px;
+  padding-bottom: 10px;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: 0.8px;
+}
+.myData {
+  cursor: pointer;
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  transition: all 0.6s ease-in-out;
+  outline: 2px solid transparent;
+  font-family: "Mulish", "sans-serif";
+  font-size: 18px;
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  background: linear-gradient(
+      to left,
+      var(--project-color),
+      var(--text-color) 50%
+    )
+    right;
+  background-size: 200%;
+  transition: 0.8s ease-out;
+}
+.myData:hover {
+  background-position: left;
+}
+.hero-avatar > p {
+  color: var(--project-color);
+  font-family: "Lato", "sans-serif";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  font-style: italic;
+}
+.hero-avatar-bio {
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 1.1;
+  font-family: "Mulish", "sans-serif";
+}
+.practice {
+  color: var(--text-color);
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 1.1;
+  font-family: "Mulish", "sans-serif";
+  font-size: 18px;
+}
+.header-emoji {
+  font-style: normal;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    display: flex;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .hero-banner {
+    position: relative;
+    margin: 0 auto;
+    top: 5vh;
+  }
+  .hero-right {
+    position: relative;
+    margin: 0 auto;
+    bottom: 0;
+  }
+  .myData {
+    display: none;
+  }
+}
+@media (max-width: 540px) {
+  .hero-banner {
+    position: relative;
+    margin: 0 auto;
+    top: 4vh;
+    width: 340px;
+  }
+  .hero-banner > h1 {
+    font-size: 34px;
+  }
+  .hero-right {
+    width: 300px;
+    bottom: 4vh;
+  }
+  .hero-info > h3 {
+    font-size: 26px;
+  }
+  .hero-avatar-bio {
+    font-size: 20px;
+  }
+  .hero-avatar > p {
+    font-size: 16px;
+  }
+  .practice {
+    font-size: 16px;
+  }
+  .myData {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .hero-banner {
+    position: relative;
+    margin: 0 auto;
+    top: 4vh;
+    width: 340px;
+  }
+  .hero-banner > h1 {
+    font-size: 36px;
+  }
+  .hero-right {
+    width: 300px;
+    bottom: 4vh;
+  }
+  .hero-info > h3 {
+    font-size: 22px;
+  }
+  .hero-avatar-bio {
+    font-size: 18px;
+  }
+  .hero-avatar > p {
+    font-size: 16px;
+  }
+  .practice {
+    font-size: 16px;
+  }
+  .myData {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .hero-banner {
+    position: relative;
+    margin: 0 auto;
+    top: 10vh;
+    width: 280px;
+    padding-top: 10vh;
+  }
+  .hero-info > h3 {
+    display: none;
+  }
+  .hero-banner > h1 {
+    font-size: 30px;
+  }
+  .hero-avatar {
+    padding-top: 28px;
+  }
+  .hero-right {
+    width: 270px;
+  }
+}
