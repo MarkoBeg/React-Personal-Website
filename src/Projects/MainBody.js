@@ -10,8 +10,8 @@ export default function MainBody({ selected }) {
         <div className="left-side">
           <div className="space">
             <PictureInfo
-              title="Join the app with a simple click is that easy"
-              text="App created for sending messages, connect to it via email and send messages to added users... check it out..."
+              title="Movies for everyone out there"
+              text="TMDB API used to create site for searching movies, check it out..."
             ></PictureInfo>
           </div>
         </div>
@@ -19,16 +19,16 @@ export default function MainBody({ selected }) {
           <div className="space">
             <a
               rel="opener"
-              href="https://whatsapp-e1158.web.app/"
+              href="https://markobeg.github.io/MoviesMark-React-Movie-App/"
               target="_blank"
             >
               <Card
                 picture=""
                 color="#fff"
-                background="var(--whatsapp-color)"
+                background="var(--moviesmark-color)"
                 info="Technologies used in project"
-                text="Build with React.js, Firebase, Material-UI, Redux"
-                title="Whatsapp build"
+                text="Build with React.js, Firebase, Material-UI, Redux, TMDB"
+                title="MoviesMark build"
                 img=""
               ></Card>
             </a>
@@ -39,20 +39,24 @@ export default function MainBody({ selected }) {
         <div className="left-side">
           <div className="space">
             <PictureInfo
-              title="LinkedIn search for a lot of opportunities..."
-              text="App created for posting text messages, connect to it via email and share some helpful tips check it out..."
+              title="Search for you favorite Apartment"
+              text="You can search for you favorite Apartment with few clicks is that easy check it out..."
             ></PictureInfo>
           </div>
         </div>
         <div className="right-side">
           <div className="space">
-            <a rel="opener" href="https://linkedin-me.web.app/" target="_blank">
+            <a
+              rel="opener"
+              href="https://markobeg.github.io/Tailwind-CSS-React-Apartments-site/"
+              target="_blank"
+            >
               <Card
-                background="var(--linkedin-color)"
+                background="var(--markapart-color)"
                 color="#fff"
                 info="Technologies used in project"
-                text="Build with React.js, Firebase, Material-UI, Redux"
-                title="LinkedIn build"
+                text="Build with React.js, Firebase, Material-UI, Tailwind CSS"
+                title="MarkApart build"
                 img=""
               ></Card>
             </a>
@@ -115,8 +119,8 @@ export default function MainBody({ selected }) {
         <div className="left-side">
           <div className="space">
             <PictureInfo
-              title="Slack is here"
-              text="Send messages and create various rooms for other people check it out..."
+              title="InstaMark is here"
+              text="Post your Pictures and comment them, also you have a little forum where you can send messages..."
             ></PictureInfo>
           </div>
         </div>
@@ -124,15 +128,15 @@ export default function MainBody({ selected }) {
           <div className="space">
             <a
               rel="opener"
-              href="https://slack-me-f26c4.web.app/"
+              href="https://instamark-me.web.app/"
               target="_blank"
             >
               <Card
                 color="#fff"
-                background="var(--slack-color)"
+                background="var(--instamark-color)"
                 info="Technologies used in project"
-                text="Build with React.js, Firebase, Material-UI, Redux, Styled Components"
-                title="Slack build"
+                text="Build with React.js, Firebase, Material-UI, Redux"
+                title="Instamark build"
                 img=""
               ></Card>
             </a>
@@ -197,7 +201,7 @@ export default function MainBody({ selected }) {
         <div className="left-side">
           <div className="space">
             <PictureInfo
-              title="Discord app "
+              title="Whatsapp"
               text="Send messages and create various channels for other people, connect to it via email... check it out... "
             ></PictureInfo>
           </div>
@@ -206,15 +210,15 @@ export default function MainBody({ selected }) {
           <div className="space">
             <a
               rel="opener"
-              href="https://discord-1336e.web.app/"
+              href="https://whatsapp-e1158.web.app/"
               target="_blank"
             >
               <Card
                 color="#fff"
-                background="var(--discord-color)"
+                background="var(--whatsapp-color)"
                 info="Technologies used in project"
                 text="Build with React.js, Firebase, Material-UI, Redux"
-                title="Discord build"
+                title="Whatsapp build"
                 img=""
               ></Card>
             </a>
