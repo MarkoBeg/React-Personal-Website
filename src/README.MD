@@ -1,1 +1,1 @@
-![screen](images/Website-screen.png)
+![screen](images/screen.png)

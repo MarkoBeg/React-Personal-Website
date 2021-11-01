@@ -136,7 +136,7 @@ export default function MainBody({ selected }) {
                 background="var(--instamark-color)"
                 info="Technologies used in project"
                 text="Build with React.js, Firebase, Material-UI, Redux"
-                title="Instamark build"
+                title="InstaMark build"
                 img=""
               ></Card>
             </a>
