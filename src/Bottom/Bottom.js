@@ -2,6 +2,7 @@ import React from "react";
 import "./Bottom.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import CV from "../Cv/Fake Resume.pdf";
 import { Link } from "react-scroll";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
@@ -23,6 +24,12 @@ export default function Bottom() {
         </a>
         <a href="https://github.com/MarkoBeg" target="_blank">
           <GitHubIcon className="icons" fontSize="large"></GitHubIcon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/marko-beg-77390a225/"
+          target="_blank"
+        >
+          <LinkedInIcon className="icons" fontSize="large"></LinkedInIcon>
         </a>
       </div>
       <Link

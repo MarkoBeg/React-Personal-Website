@@ -189,7 +189,7 @@ export default function MainBody({ selected }) {
               <Card
                 background="var(--weatherapp-color)"
                 info="Technologies used in project"
-                text="Build with React.js, Material-UI,"
+                text="Build with React.js, Material-UI, Styled Components"
                 title="Weather app build"
                 color="#fff"
               ></Card>
